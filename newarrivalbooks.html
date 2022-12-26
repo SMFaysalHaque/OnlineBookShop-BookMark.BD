@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/newarrivalbooks.css">
+    <link rel="shotcut icon" type="image/png" href="images/Bookmark.BD4.png">
+    <title>New Arrival Books</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+      <div class="container header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid col-sm-6 col-md-12 col-lg-12">
+            <a class="navbar-brand" href="home.html"><img src="images/Bookmark.BD.png" style="width: 200px;" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li id="top-home" class="nav-item" style="">
+                  <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li id="top-profile" class="nav-item" style="">
+                  <a class="nav-link" href="#">Profile</a>
+                </li>
+                <li id="top-category" class="nav-item dropdown" style="">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Category
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li id="button">
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a href="signin.html"><button id="top-sign-in-button" class="btn rounded-pill" style="" type="button">Sign In</button></a>
+                    <a href="signup.html"><button id="top-sign-up-button" class="btn btn-outline rounded-pill" style="" type="button">Sign Up</button></a>
+                  </div>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary rounded-pill" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="books-cetagory">
+        <div class="container books-cetagory-row">
+          <div class="col-lg-12 col-md-12 col-sm-12 item" style="background-color: #3A4ADB;">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="ditective.html" style="color: white;">Ditective</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color: white;" href="poem.html">Poem</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color: white;" href="college.html">College books</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color: white;" href="islamic.html">Islamic Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="historic.html">Historic Books</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="story.html">Story Books</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="academic.html">Academic Books</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="#">More</a>
+                  </li>
+              </ul>
+        </div>
+        </div>
+    </section>
+
+    <section class="photo-text-search">
+      <div class="container photo-text-search-area">
+        <p id="photo-text">Find and Read any kind of Book <br><br>
+            <input id="search-area" placeholder="Search your Book" type="search" name="" id="">
+            <button id="search-button" type="submit">Search</button>
+        </p>
+        
+      </div>  
+    </section>
+
+    <section class="new-arrival-book">
+      <div class="container new-arrival-book-body">
+        <div class="sidebar">
+          <div class="container filter">
+            <img src="images/filter.svg" alt="">
+            <h4 style="">Filter</h4>
+          </div>
+            <div class="container subject" style="">
+              <h4 style="">Subject</h4>
+          </div>
+          <div class="container subject-name" style="">
+            <input type="checkbox" id="subject1" name="subject1" value="">
+            <label for="subject1"> Subject 1</label><br>
+            <input type="checkbox" id="Subject2" name="Subject2" value="">
+            <label for="Subject2"> Subject 2</label><br>
+            <input type="checkbox" id="Subject3" name="Subject3" value="">
+            <label for="Subject3"> Subject 3</label><br>
+            <input type="checkbox" id="Subject4" name="Subject4" value="">
+            <label for="Subject4"> Subject 4</label><br>
+            <input type="checkbox" id="Subject 5" name="Subject 5" value="">
+            <label for="Subject5"> Subject 5</label><br>
+            <input type="checkbox" id="Subject6" name="Subject6" value="">
+            <label for="Subject 6"> Subject 6</label><br>
+            <input type="checkbox" id="Subject7" name="Subject7" value="">
+            <label for="Subject7"> Subject 7</label><br>
+            <input type="checkbox" id="Subject8" name="Subject8" value="">
+            <label for="Subject8"> Subject 8</label><br>
+            <input type="checkbox" id="Subject9" name="Subject9" value="">
+            <label for="Subject9"> Subject 9</label><br>
+            <input type="checkbox" id="Subject10" name="Subject10" value="">
+            <label for="Subject10"> Subject 10</label><br>
+            <input type="checkbox" id="Subject11" name="Subject11" value="">
+            <label for="Subject11"> Subject 11</label><br>
+            <input type="checkbox" id="Subject12" name="Subject12" value="">
+            <label for="Subject12"> Subject 12</label><br>
+        </div>
+        <div class="container writter" style="">
+            <h4 style="">Writter</h4>
+        </div>
+        <div class="container writter-name" style="">
+            <input type="checkbox" id="writter1" name="writter1" value="">
+            <label for="writter1"> Writter 1</label><br>
+            <input type="checkbox" id="writter2" name="writter2" value="">
+            <label for="writter2"> Writter 2</label><br>
+            <input type="checkbox" id="writter3" name="writter3" value="">
+            <label for="writter3"> Writter 3</label><br>
+            <input type="checkbox" id="writter4" name="writter4" value="">
+            <label for="writter4"> Writter 4</label><br>
+            <input type="checkbox" id="writter5" name="writter5" value="">
+            <label for="writter5"> Writter 5</label><br>
+            <input type="checkbox" id="writter6" name="writter6" value="">
+            <label for="writter6"> Writter 6</label><br>
+            <input type="checkbox" id="writter7" name="writter7" value="">
+            <label for="writter7"> Writter 7</label><br>
+            <input type="checkbox" id="writter8" name="writter8" value="">
+            <label for="writter8"> Writter 8</label><br>
+            <input type="checkbox" id="writter9" name="writter9" value="">
+            <label for="writter9"> Writter 9</label><br>
+            <input type="checkbox" id="writter10" name="writter10" value="">
+            <label for="writter10"> Writter 10</label><br>
+            <input type="checkbox" id="writter11" name="writter11" value="">
+            <label for="writter11"> Writter 11</label><br>
+            <input type="checkbox" id="writter12" name="writter12" value="">
+            <label for="writter12"> Writter 12</label><br>
+        </div>
+        <div class="container publishers" style="">
+            <h4 style="">Publishers</h4>
+        </div>
+        <div class="container publishers-name" style="">
+            <input type="checkbox" id="publishers1" name="publishers1" value="">
+            <label for="publishers1"> Publishers 1</label><br>
+            <input type="checkbox" id="publishers2" name="publishers2" value="">
+            <label for="publishers2"> Publishers 2</label><br>
+            <input type="checkbox" id="publishers3" name="publishers3" value="">
+            <label for="publishers3"> Publishers 3</label><br>
+            <input type="checkbox" id="publishers4" name="publishers4" value="">
+            <label for="publishers4"> Publishers 4</label><br>
+            <input type="checkbox" id="publishers5" name="publishers5" value="">
+            <label for="publishers5"> Publishers 5</label><br>
+            <input type="checkbox" id="publishers6" name="publishers6" value="">
+            <label for="publishers6"> Publishers 6</label><br>
+            <input type="checkbox" id="publishers7" name="publishers7" value="">
+            <label for="publishers7"> Publishers 7</label><br>
+            <input type="checkbox" id="publishers8" name="publishers8" value="">
+            <label for="publishers8"> Publishers 8</label><br>
+            <input type="checkbox" id="publishers9" name="publishers9" value="">
+            <label for="publishers9"> Publishers 9</label><br>
+            <input type="checkbox" id="publishers10" name="publishers10" value="">
+            <label for="publishers10"> Publishers 10</label><br>
+            <input type="checkbox" id="publishers11" name="publishers11" value="">
+            <label for="publishers11"> Publishers 11</label><br>
+            <input type="checkbox" id="publishers12" name="publishers12" value="">
+            <label for="publishers12"> Publishers 12</label><br>
+        </div>
+        </div>
+        <div class="main">
+          <div class="container new-arrival-books">
+            <p>New Arrival Books</p>
+        </div>
+        <div class="container new-arrival-books-body-text">
+          <ul >
+              <li style=""><a href="newarrivalbooks.html"><h2>New Arrival Books</h2></a></li>
+      </div>
+      <div class="container new-arrival-books-body-block">
+        <div class="card" style="width: 18rem;">
+          <img src="images/book-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="bookdetail.html" class="btn btn-primary">Book Details</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/book-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="bookdetail.html" class="btn btn-primary">Book Details</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/book-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="bookdetail.html" class="btn btn-primary">Book Details</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/book-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="bookdetail.html" class="btn btn-primary">Book Details</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/book-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="bookdetail.html" class="btn btn-primary">Book Details</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/book-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="bookdetail.html" class="btn btn-primary">Book Details</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/book-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="bookdetail.html" class="btn btn-primary">Book Details</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/book-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="bookdetail.html" class="btn btn-primary">Book Details</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/book-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="bookdetail.html" class="btn btn-primary">Book Details</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+
+    
+
+    
+
+    
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.book-detail-body{
+    height: 600px;
+    margin-top: 50px;
+    overflow: ;
+}
+
+.headline-book-detail{
+    height: 80px;
+}
+
+.headline-book-detail p{
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+    color: blue;
+    text-align: center;
+}
+.book-detail-sigment{
+    padding: 20px;
+}
+
+.book-detail-photo img{
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+} 
+
+.book-detail-information{
+    padding: 20px;
+}
+
+.book-name{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.price-tag{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.cart-image{
+    height: 50px;
+    width: 200px;
+    
+}
+.book-detail-information img{
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#add-to-cart{
+    
+}
+
+
+.cart-image button{
+    height: 100%;
+    width:100%;
+    border-radius: 5px;
+    border-color: rgb(85, 219, 243);
+    outline: none;
+    background-color: rgb(85, 219, 243);
+}
+#add-to-cart{
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: white;
+}
